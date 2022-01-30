@@ -1,11 +1,12 @@
 h1 {
-    font-family: sans-serif;
+    font-family: 'Amatic SC', cursive;
     text-align: center;
     color: rgb(31, 116, 196);
   }
   p {
-    font-family: cursive, Helvetica, sans-serif;
-    color: rgb(196, 171, 31);
+    font-family: 'Dosis', sans-serif;
+    color: rgb(44, 43, 37);
+    text-align: center;
   }
 
   a{
@@ -16,4 +17,9 @@ h1 {
   a:hover{
     color:rgb(31, 116, 196);
     text-decoration: underline;
+  }
+
+  #mattarella{
+    color: red;
+    font-weight: bold;
   }
