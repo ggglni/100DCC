@@ -1,25 +1,40 @@
-h1 {
-    font-family: 'Amatic SC', cursive;
+  body {
     text-align: center;
+    background-color: rgba(241, 197, 219, 0.932);
+  }
+  
+  
+  h1 {
+    font-family: 'Amatic SC', cursive;
     color: rgb(31, 116, 196);
   }
+
   p {
     font-family: 'Dosis', sans-serif;
     color: rgb(44, 43, 37);
-    text-align: center;
   }
 
-  a{
+  a {
     color:rgb(182, 31, 196);
     text-decoration: none;
   }
 
-  a:hover{
+  a:hover {
     color:rgb(31, 116, 196);
     text-decoration: underline;
   }
 
-  #mattarella{
+  #mattarella {
     color: red;
     font-weight: bold;
+  }
+
+  #full-week{
+    background-color: rgba(197, 241, 199, 0.932);
+  }
+
+  img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50px; 
   }
