@@ -12,7 +12,7 @@
   }
 
   #blocco {
-    background-color:rgb(241, 153, 119);
+    background-color:rgb(162, 238, 228);
     font-weight: bold;
     margin: -120px auto 10px auto;
     border-radius: 5px;
@@ -31,7 +31,7 @@
   
   h2 {
     font-family: 'Amatic SC', cursive;
-    font-size: 18px;
+    font-size: 22px;
     color: rgb(31, 116, 196);
     padding: 60px 0px 10px 0px;
 
