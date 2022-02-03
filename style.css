@@ -1,12 +1,40 @@
   body {
     text-align: center;
-    background-color: rgba(241, 197, 219, 0.932);
+    background-color: rgb(245, 240, 228);
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px; 
+    margin: 50px;
+    border: 2px solid rgb(24, 20, 20);
+  }
+
+  #blocco {
+    background-color:rgb(241, 153, 119);
+    font-weight: bold;
+    margin: -120px auto 10px auto;
+    border-radius: 5px;
+    border: 2px solid rgb(24, 20, 20);
+    box-shadow: 2px 2px ;
+  }
+
+  li {
+    list-style: none;
+    width: 400px;
+    height: 250px;
+    font-size: 24px;
+    padding: 0px 20px 0px 20px;
   }
   
   
-  h1 {
+  h2 {
     font-family: 'Amatic SC', cursive;
+    font-size: 18px;
     color: rgb(31, 116, 196);
+    padding: 60px 0px 10px 0px;
+
   }
 
   p {
@@ -21,20 +49,7 @@
 
   a:hover {
     color:rgb(31, 116, 196);
-    text-decoration: underline;
+    text-decoration: nome;
   }
 
-  #mattarella {
-    color: red;
-    font-weight: bold;
-  }
 
-  #full-week{
-    background-color: rgba(197, 241, 199, 0.932);
-  }
-
-  img {
-    width: 200px;
-    height: 250px;
-    border-radius: 50px; 
-  }

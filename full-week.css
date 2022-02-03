@@ -1,13 +1,31 @@
 h1 {
     font-size: 48px;
     color:rgb(167, 1, 78);
+    margin: 0px;
 
 }
 
+#description {
+    margin-bottom:  36px;
+}
+
+header p {
+    margin-bottom: 36px;
+}
+
+h2 {
+    color: blue;
+    font-family: cursive;
+}
+
 a{
+    padding: 12px 48px;
     background-color: rgb(167, 1, 78);
     color: white;
-    border-radius: 3px;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-size: 24px;
+    margin: 0px;
 }
 
 a:hover{
@@ -18,12 +36,30 @@ a:hover{
 
 ol {
     list-style: none;
+    width: 500px;
+    margin: 0px auto 0 auto;
+    padding: 16px;
 }
 
 
 li {
+    padding: 16px;
     margin: 32px;
     background-color: rgb(223,136,124);
-    border-radius: 6px;
+    box-shadow: 2px 2px 5px rebeccapurple;
+  }
+
+  /* main p {
+      color: cornflowerblue;
+  } */
+
+
+  .daily-goal {
+    color: cornflowerblue;
+
+  }
+
+  .highlight-goal{
+    background-color: darkkhaki;
   }
 
