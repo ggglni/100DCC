@@ -4,6 +4,9 @@ body {
 
 div {
     background-color: rgb(100, 14, 180);
+    border: 2px solid rgb(100, 14, 180);
+    border-radius: 5px;
+    margin: 0px 30% -10px 30%;
     color: white;
 }
 
@@ -28,6 +31,10 @@ h2 {
     padding: 10px 10px 0px 10px;
 }
 
+span {
+    font-weight: bold;
+}
+
 h3 {
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
@@ -39,20 +46,51 @@ li {
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
     list-style-type: none;
+    margin: 5px 5px 5px 5px;
+    padding: 0px 5px 0px 5px;
 }
 
 .highlighted {
     color: rgb(226, 226, 137);
+    border-left: 2px solid rgb(226, 226, 137);
+
 
 }
 
-a {
+h3 a {
     background-color: wheat;
     text-decoration: none;
     border-radius: 3px;
     padding: 0px 2px;
 }
 
+#bottone {
+    font-size: 18px;
+    background-color: rgb(219, 166, 66);
+    color: white;
+    width: 250px;
+    height: 40px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    margin: 20px auto 20px auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(0, 255, 42);
+}
+
+a:active{
+    color: rgb(0, 255, 255);
+}
+
 footer {
     text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
 }
