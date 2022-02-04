@@ -6,7 +6,7 @@ div {
     background-color: rgb(100, 14, 180);
     border: 2px solid rgb(100, 14, 180);
     border-radius: 5px;
-    margin: 0px 30% -10px 30%;
+    margin: -15px 30% 0px 30%;
     color: white;
 }
 
@@ -26,9 +26,8 @@ h1 {
 h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
-    font-weight: bold;
     color: white;
-    padding: 10px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
 }
 
 span {
