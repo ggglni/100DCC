@@ -14,7 +14,7 @@ img {
     display: block;
     width: 25%;
     height: 25%;
-    margin: 0px auto 30px auto;
+    margin: 0px auto 50px auto;
 }
 
 h1 {
@@ -85,7 +85,7 @@ a:hover{
 }
 
 a:active{
-    color: rgb(0, 255, 255);
+    color: rgb(255, 115, 0);
 }
 
 footer {
